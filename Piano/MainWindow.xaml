@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="699.872">
     <Grid>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White"/>
+        <Button x:Name="btnDo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Click="btnDo_Click"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="99,0,0,0"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Height="410" Background="White" Margin="198,0,0,0"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="296,0,0,0"/>
@@ -19,6 +19,18 @@
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="362,0,0,0"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="461,0,0,0"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="558,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,335,0,0" TextWrapping="Wrap" Text="Do" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="99,335,0,0" TextWrapping="Wrap" Text="Re" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,335,0,0" TextWrapping="Wrap" Text="Mi" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="297,335,0,0" TextWrapping="Wrap" Text="Fa" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="395,335,0,0" TextWrapping="Wrap" Text="Sol" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="494,335,0,0" TextWrapping="Wrap" Text="La" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="595,335,-0.4,0" TextWrapping="Wrap" Text="Si" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="66,232,0,0" TextWrapping="Wrap" Text="Do#" VerticalAlignment="Top" Height="51" FontSize="30" Width="66" TextAlignment="Center" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="166,232,0,0" TextWrapping="Wrap" Text="Re#" VerticalAlignment="Top" Height="51" FontSize="30" Width="66" TextAlignment="Center" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="362,232,0,0" TextWrapping="Wrap" Text="Fa#" VerticalAlignment="Top" Height="51" FontSize="30" Width="66" TextAlignment="Center" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="462,232,0,0" TextWrapping="Wrap" Text="Sol#" VerticalAlignment="Top" Height="51" FontSize="30" Width="66" TextAlignment="Center" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="558,232,0,0" TextWrapping="Wrap" Text="La#" VerticalAlignment="Top" Height="51" FontSize="30" Width="66" TextAlignment="Center" Foreground="White"/>
 
     </Grid>
 </Window>
