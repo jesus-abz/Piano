@@ -8,17 +8,17 @@
         Title="MainWindow" Height="450" Width="699.872">
     <Grid>
         <Button x:Name="btnDo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Click="btnDo_Click"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="99,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Height="410" Background="White" Margin="198,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="296,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="395,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="494,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="593,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="65,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="165,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="362,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="461,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="558,0,0,0"/>
+        <Button x:Name="btnRe" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="99,0,0,0" Click="btnRe_Click"/>
+        <Button x:Name="btnMi" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Height="410" Background="White" Margin="198,0,0,0" Click="btnMi_Click"/>
+        <Button x:Name="btnFa" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="296,0,0,0" Click="btnFa_Click"/>
+        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="395,0,0,0" Click="btnSol_Click"/>
+        <Button x:Name="btnLa" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="494,0,0,0" Click="btnLa_Click"/>
+        <Button x:Name="btnSi" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Height="410" Background="White" Margin="593,0,0,0" Click="btnSi_Click"/>
+        <Button x:Name="btnDoSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="66,0,0,0" Click="btnDoSos_Click" />
+        <Button x:Name="btnReSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="165,0,0,0" Click="btnReSos_Click"/>
+        <Button x:Name="btnFaSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="362,0,0,0" Click="btnFaSos_Click"/>
+        <Button x:Name="btnSolSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="461,0,0,0" Click="btnSolSos_Click"/>
+        <Button x:Name="btnLaSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="283" Background="Black" Margin="558,0,0,0" Click="btnLaSos_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="0,335,0,0" TextWrapping="Wrap" Text="Do" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="99,335,0,0" TextWrapping="Wrap" Text="Re" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="198,335,0,0" TextWrapping="Wrap" Text="Mi" VerticalAlignment="Top" Height="75" FontSize="48" Width="99" TextAlignment="Center"/>
